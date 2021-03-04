@@ -1,0 +1,34 @@
+2021-03-04 11:27:44.788  INFO 4960 --- [main] com.controller.StudentsApplication       : Starting StudentsApplication using Java 14.0.2 on DESKTOP-VF99A03 with PID 4960 (C:\Users\Bhavya\Downloads\studentstech\students\target\classes started by Bhavya in C:\Users\Bhavya\Downloads\studentstech\students)
+2021-03-04 11:27:44.796  INFO 4960 --- [main] com.controller.StudentsApplication       : No active profile set, falling back to default profiles: default
+2021-03-04 11:27:47.643  INFO 4960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-04 11:27:47.702  INFO 4960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2021-03-04 11:27:48.871  INFO 4960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-04 11:27:48.912  INFO 4960 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-04 11:27:48.914  INFO 4960 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-04 11:27:49.089  INFO 4960 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-04 11:27:49.089  INFO 4960 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4156 ms
+2021-03-04 11:27:49.385  INFO 4960 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-04 11:27:49.470  INFO 4960 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-04 11:27:49.673  INFO 4960 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-04 11:27:49.832  INFO 4960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-04 11:27:50.323  INFO 4960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-04 11:27:50.349  INFO 4960 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-04 11:27:51.360  INFO 4960 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-04 11:27:51.376  INFO 4960 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-04 11:27:52.154  WARN 4960 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-04 11:27:52.406  INFO 4960 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-04 11:27:52.561  INFO 4960 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-04 11:27:52.810  INFO 4960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-04 11:27:52.812  INFO 4960 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-04 11:27:52.841  INFO 4960 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-04 11:27:52.890  INFO 4960 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-04 11:27:53.173  INFO 4960 --- [main] com.controller.StudentsApplication       : Started StudentsApplication in 9.125 seconds (JVM running for 9.817)
+2021-03-04 11:29:23.251  INFO 4960 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-04 11:29:23.252  INFO 4960 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-04 11:29:23.257  INFO 4960 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-03-04 11:29:23.295  WARN 4960 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-03-04 11:29:49.150  WARN 4960 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-03-04 11:30:47.616  WARN 4960 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-03-04 11:31:22.437  INFO 4960 --- [http-nio-8080-exec-5] com.controller.StudentController         : studentStudent(id=5, firstName=chinthabattini, lastName=Sahithya, address=panchayathStreet, feeStatus=NotPaid)
+2021-03-04 11:31:22.597  INFO 4960 --- [http-nio-8080-exec-5] com.controller.StudentController         : studentStudent(id=5, firstName=chinthabattini, lastName=Sahithya, address=panchayathStreet, feeStatus=NotPaid)
+2021-03-04 12:29:23.614  WARN 4960 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m33s88ms360µs600ns).
