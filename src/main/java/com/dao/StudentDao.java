@@ -17,9 +17,9 @@ public class StudentDao {
 	@Autowired
 	StudentRepository studentRepository;
 
-	public void register(Student student) {
-		studentRepository.save(student);
-		
+	public Student register(Student student) {
+		Student s=studentRepository.save(student);
+		return s;
 	}
 
 	public List<Student> getAllStudents() {

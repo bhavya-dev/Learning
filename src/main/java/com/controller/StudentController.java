@@ -29,7 +29,7 @@ public class StudentController {
 	@PostMapping("/register")
 	public void register(@RequestBody Student student) {
 
-		studentDao.register(student);
+		Student s1=studentDao.register(student);
 	}
 
 	@GetMapping("/getAllStudents")
