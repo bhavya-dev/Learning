@@ -20,7 +20,7 @@ class StudentsApplicationTests {
 	@Autowired
 	StudentDao studentDao;
 	
-	@Mock
+	@MockBean
 	StudentRepository studentRepository;
 	
 	@Test
