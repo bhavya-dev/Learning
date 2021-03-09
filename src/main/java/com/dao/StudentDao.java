@@ -23,7 +23,10 @@ public class StudentDao {
 	}
 
 	public List<Student> getAllStudents() {
-		return studentRepository.findAll();
+		List<Student> students= studentRepository.findAll();
+
+		System.out.println("getting data"+students);
+		return students;
 	
 	}
 
@@ -39,18 +42,23 @@ public class StudentDao {
 	}
 
 	public void deleteById(Integer id) {
+		
 		studentRepository.deleteById(id);
+		System.out.println("delete by id");
 		
 	}
 
 	public Student getStudentByFirstNameAndId(Integer id, String firstName) {
       Student student = studentRepository.findByIdAndFirstName(id,firstName);
+      System.out.println(student);
 		return student;
 	}
 
 	public Student getStudentByFirstNameORId(Integer id, String firstName) {
 	    
 		Student student = studentRepository.findByIdOrFirstName(id,firstName);
+	      System.out.println(student);
+
         return student;
 	}
 
@@ -64,6 +72,7 @@ public class StudentDao {
 		
 		Sort sort=Sort.by(Sort.Direction.ASC,"lastName");
 		List<Student> student= studentRepository.findAll(sort);
+		System.out.println("sorted"+student);
 		return student;
 	}
 	
